@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Player from '../Player/Player';
 import './Cart.css'
 import playerData from "../../Fakedata/data.json";
@@ -6,7 +6,13 @@ import AddPlayer from '../AddPlayer/AddPlayer';
 
 
 const Cart = () => {
-    const [player, setPlayer] = useState(playerData);
+ const [player, setPlayer] = useState([]);
+  useEffect(()=>{
+     setPlayer(playerData)
+  },[])
+
+
+
     const [cart, setCart] = useState([])
 
     const addPlayer = (player) => {
