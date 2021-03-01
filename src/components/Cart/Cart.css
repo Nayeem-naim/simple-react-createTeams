@@ -1,18 +1,21 @@
-h2{
+h2 {
     background-color: aqua;
 }
 
-.cart-container{
+.cart-container {
     display: flex;
 }
-.cart-body{
+
+.cart-body {
     width: 70%;
     margin: 50px;
 }
-.site-cart{
+
+.site-cart {
     width: 30%;
     margin-top: 50px;
 }
-h2{
+
+h2 {
     text-align: center;
 }

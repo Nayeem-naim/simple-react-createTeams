@@ -8,18 +8,18 @@ const AddPlayer = (props) => {
         <div className="container">
             <h3>Selected  Player</h3>
             <p>Add Player :- {cart.length}</p>
-           
-       
-        <div className="player-select">
-        <h3>Selected Player Name List</h3>
-               {
-                  cart.map(ply=> <h4>{ply.name}</h4>)
-               }
-         </div>
+
+
+            <div className="player-select">
+                <h3>Selected Player Name List</h3>
+                {
+                    cart.map(ply => <h4>{ply.name}</h4>)
+                }
+            </div>
             <div className="cost-info">
-           <h3>Total cost</h3>
-           <p>Total Cost = {total}</p>
-           </div>
+                <h3>Total cost</h3>
+                <p>Total Cost = {total}</p>
+            </div>
 
         </div>
     );

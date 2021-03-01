@@ -1,31 +1,27 @@
-
-img{
+img {
     height: 200px;
     width: 200px;
     border-radius: 50%;
 }
-.player-container{
+
+.player-container {
     display: flex;
     background-color: rgb(152, 175, 152);
     margin: 20px;
     align-items: center;
     border-radius: 10px;
 }
-.player-img{
+
+.player-img {
     margin: 20px;
 }
-.player-body{
+
+.player-body {
     margin: 10px;
     text-align: center;
     padding: 15px;
 }
-button{
-    width: 150px;
-    height: 30px;
-    background-color: lightcoral;
-    border: none;
-    border-radius: 10px;
-}
-button:hover{
+
+button:hover {
     cursor: pointer;
 }
