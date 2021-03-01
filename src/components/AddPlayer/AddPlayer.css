@@ -1,0 +1,22 @@
+.container{
+    background-color: goldenrod;
+    color: white;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 15px;
+    text-align: center;
+}
+.player-select{
+    color:whitesmoke;
+    background-color: blueviolet;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.cost-info{
+    background-color: lightgray;
+    color: black;
+    border-radius: 20px;
+    padding: 20px;
+}
