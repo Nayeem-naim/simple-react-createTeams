@@ -10,9 +10,6 @@ const Cart = () => {
   useEffect(()=>{
      setPlayer(playerData)
   },[])
-
-
-
     const [cart, setCart] = useState([])
 
     const addPlayer = (player) => {
